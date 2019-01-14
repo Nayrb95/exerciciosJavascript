@@ -5,33 +5,33 @@
 */
 
 document.write('<img src="../logo.png" alt="Algo falla no logo">');
-document.write('<h1> Páxina de mates que usa .css </h1>')
+document.write('<h1> Página de mates que usa .css </h1>')
 
 // as variables decláranse
 var num1; 
 var num2;
 
 // pregunto o valor ó usuario; Javscript considéraos caracteres, non números
-num1 = prompt('Canto vale o primeiro número? ');
-num2 = prompt('Canto vale o segundo número? ');
+num1 = prompt('Cuanto vale el primer número? ');
+num2 = prompt('Cuanto vale el segundo número? ');
 
 // convertimos a números
 var solucionado = parseInt(num1)+parseInt(num2);
-document.write('O resultado da túa suma é '+ solucionado);
+document.write('El resultado de tu suma es '+ solucionado);
 
 // fallos nos cálculos
 var num3 = 0;
-document.write('<br> <hr>Atención ós erros nas contas (dividir entre 0) será...'+ num1/num3); // opsssss
+document.write('<br> <hr>Atención los errores en las cuentas (dividir entre 0) será...'+ num1/num3); // opsssss
 
 
-document.write('<hr><h3>Javascript "inventa" un número entre 0 e 10</h3>');
+document.write('<hr><h3>Javascript "inventa" un número entre 0 e 23</h3>');
 
 var misterio = Math.random();
-document.write('<br>Xenero un número aleatorio menor ca un: '+ misterio);
+document.write('<br>Genero un número aleatorio menor que un: '+ misterio);
 
 //olliño con este truquito para non crear máis variables
-misterio = misterio*10;
-document.write('<br> Agora está entre 0 e 10: '+ misterio);
+misterio = misterio*23;
+document.write('<br> Agora está entre 0 e 23: '+ misterio);
 
 //olliño con este truquito para non crear máis variables (outra vez)
 misterio = Math.round(misterio)
