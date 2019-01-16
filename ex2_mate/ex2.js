@@ -4,7 +4,7 @@
 	Usado: parseInt(), Math.random(), Math.round()
 */
 
-document.write('<img src="../logo.png" alt="Algo falla no logo">');
+
 document.write('<h1> Página de mates que usa .css </h1>')
 
 // as variables decláranse
