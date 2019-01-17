@@ -3,13 +3,14 @@
 	Nome do ficheiro: ex5.js
 	Usado: for, while
 */
-
+/*
 document.write('<img src="../logo.png" alt="Algo falla no logo">');
 document.write('<h1> Páxina de bucles </h1>')
 
 /*	
 	bucle WHILE
 */
+/*
 document.write('<h2> Bucle WHILE</h2>');
 
 //exercicio 1
@@ -32,6 +33,7 @@ while (comida != 'fritas') {
 /*	
 	Bucle FOR
 */
+/*
 document.write('<h2> Bucle FOR</h2>');
 
 //exercicio 1
@@ -57,5 +59,23 @@ document.write('<h3>☞ Outra canción infantil</h3>');
 for (var i=1; i<= 20; i++) {
 	document.write(i +' No se debe copiar en los examenes <br>');
 }
+*/
+//ejercicio de clase
+/*
+var x = prompt('¿por que número empezamos a contar?');
+var y = prompt('¿En que número quiereq que acabe de contar?');
 
+while (x <= y){
+	alert(x);
+	x++
+}
+*/
 
+var x = prompt('Dime  el nombre de tu profe ');
+
+while(x != 'Bea'){
+
+	alert('No tienes ni idea');	
+	x = prompt('Dime  el nombre de tu profe');
+}
+alert('Has ganado');

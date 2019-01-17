@@ -8,8 +8,8 @@
 	Función sen parámetros
 */
 function saudar () {
-	var dato='todos';
-	alert('Moi boas a '+ dato);
+	var dato='eres';
+	alert('De donde '+ dato);
 }
 
 
@@ -47,5 +47,5 @@ cotillear('Toni');
 cotillear('Xan');
 
 document.write('<hr>Chamada á función <code>calcularMedia()</code>');
-var nota=calcularMedia(5,4);
+var nota=calcularMedia(5,10);
 document.write('<br> A túa nota final é... '+ nota);
