@@ -30,7 +30,7 @@ while (comida != 'fritas') {
 }
 
 
-/*	
+/*
 	Bucle FOR
 */
 /*
@@ -47,21 +47,23 @@ document.write('<h3>☞ Aprender a contar hasta 10</h3>');
 for (var i=0; i<= 10; i++) {
 	document.write(i +', ');
 }
-
+*/
 //exercicio 3
-document.write('<h3>☞ Aprender a contar hasta 60 de diez en cinco comenzando en 1</h3>');
-for (var i=1; i<= 60; i=i+10) {
-	document.write(i +', ');
+document.write('<h3>☞ Aprender a contar hasta 700 de 100 en 100 comenzando en -7</h3>');
+for (var i=-7; i<= 700; i=i+100) {
+	document.write(i +' ');
 }
-
+/*
 //exercicio 4
 document.write('<h3>☞ Outra canción infantil</h3>');
 for (var i=1; i<= 20; i++) {
 	document.write(i +' No se debe copiar en los examenes <br>');
 }
 */
-//ejercicio de clase
 /*
+
+//ejercicio de clase
+
 var x = prompt('¿por que número empezamos a contar?');
 var y = prompt('¿En que número quiereq que acabe de contar?');
 
@@ -71,6 +73,7 @@ while (x <= y){
 }
 */
 
+/*
 var x = prompt('Dime  el nombre de tu profe ');
 
 while(x != 'Bea'){
@@ -79,3 +82,4 @@ while(x != 'Bea'){
 	x = prompt('Dime  el nombre de tu profe');
 }
 alert('Has ganado');
+*/
